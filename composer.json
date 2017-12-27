@@ -1,5 +1,6 @@
 {
     "name": "samuelsonbrito/facebook-bot-sdk",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
