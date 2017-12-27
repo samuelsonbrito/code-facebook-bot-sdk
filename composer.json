@@ -1,0 +1,19 @@
+{
+    "name": "samuelsonbrito/facebook-bot-sdk",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Samuelson Brito",
+            "email": "samuelsonma@hotmail.com"
+        }
+    ],
+    "require": {
+    	"php": ">=7.1",
+        "phpunit/phpunit": "^6.5"
+    },
+    "autoload": {
+    	"psr-4":{
+    		"CodeBot\\":"src"
+    	}
+    }
+}
