@@ -1,7 +1,6 @@
-<?php 
+<?php
 
 namespace CodeBot;
-
 
 class SenderRequest{
 
