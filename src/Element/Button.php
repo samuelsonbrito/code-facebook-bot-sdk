@@ -2,7 +2,7 @@
 
 namespace  CodeBot\Element;
 
-class Button
+class Button implements ElementInterface
 {
 
 	private $title;

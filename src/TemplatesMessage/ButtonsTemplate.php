@@ -2,9 +2,9 @@
 
 namespace CodeBot\TemplatesMessage;
 
-use CodeBot\Message\Message;
+use CodeBot\Element\ElementInterface;
 
-class ButtonsTemplate implements Message
+class ButtonsTemplate
 {
 	protected $buttons = [];
 	protected $recipientId;
@@ -13,7 +13,7 @@ class ButtonsTemplate implements Message
     	$this->recipientId = $recipientId;
     }
 
-    public function add($element){
+    public function add(ElementInterface $element){
     	$this->buttons[] = $element->get();
     }
 
