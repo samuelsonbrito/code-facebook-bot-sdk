@@ -1,2 +1,11 @@
 vendor
 vendor/
+.settings
+.settings/
+/.settings
+.buildpath
+.buildpath/
+/.buildpath
+.project/
+.project
+/.project

@@ -21,7 +21,7 @@ class Image implements Message{
     			'attachment' => [
     				'type' => 'image',
     				'payload' => [
-    					'url' => $messageText;
+    					'url' => $messageText
     				]
     			]
     		]

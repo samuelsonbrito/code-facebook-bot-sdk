@@ -4,7 +4,7 @@ namespace CodeBot\TemplatesMessage;
 
 use CodeBot\Element\ElementInterface;
 
-class ButtonsTemplate
+class ButtonsTemplate implements TemplateInterface
 {
 	protected $buttons = [];
 	protected $recipientId;
@@ -17,7 +17,7 @@ class ButtonsTemplate
     	$this->buttons[] = $element->get();
     }
 
-	public function message(string $messageText){
+	public function message(string $messageText) :array{
 
 		return [
 

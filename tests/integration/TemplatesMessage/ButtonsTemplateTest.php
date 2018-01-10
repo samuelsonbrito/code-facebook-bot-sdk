@@ -11,7 +11,7 @@ class ButtonsTemplateTest extends TestCase{
 
 		$buttonsTemplate = new ButtonsTemplate('1234');
 		$buttonsTemplate->add(new Button('postback','Que tal uma resposta do bot','resposta'));
-		$actual = $buttonsTemplate->message('olha um exemplo de template com botões');
+		$actual = $buttonsTemplate->message('olha um exemplo de template com botoes');
 
 		$expected = [
 
@@ -26,7 +26,7 @@ class ButtonsTemplateTest extends TestCase{
     				'type' => 'template',
     				'payload' => [
     					'template_type' => 'button',
-    					'text' => 'olha um exemplo de template com botões',
+    					'text' => 'olha um exemplo de template com botoes',
     					'buttons' => [
 
 							[
