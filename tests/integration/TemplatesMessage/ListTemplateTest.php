@@ -30,7 +30,7 @@ class ListTemplateTest extends TestCase
                     'type' => 'template',
                     'payload' => [
                         'template_type' => 'list',
-                        'buttons' => [
+                        'elements' => [
                             [
                                 'title' => 'Produto',
                                 'subtitle' => 'Curso de VueJS',
