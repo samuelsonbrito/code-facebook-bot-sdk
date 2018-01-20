@@ -9,7 +9,7 @@ class GetStartedButtonTest extends TestCase
     public function testAddGetStartedButton()
     {
         $data = (new GetStartedButton())->add('iniciar');
-        $callSendApi = new CallSendApi('TOKEN');
+        $callSendApi = new CallSendApi('AQUI_VAI_O_TOKEN');
         $result = $callSendApi->make($data, CallSendApi::URL_PROFILE);
         
         $this->assertTrue(is_string($result));
